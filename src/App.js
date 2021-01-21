@@ -24,7 +24,7 @@ export default function App() {
     if (emojicollecion[inputEmoji]) {
       setMeaning(emojicollecion[inputEmoji]);
     } else {
-      setMeaning("Oops..! Emoji Not Found");
+      setMeaning("Oops..! Emoji is Not present in Database");
     }
   }
 
